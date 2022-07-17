@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Analytical Chemistry Digital Summit 2022
+# Leaderboard
 
 > Interactive website for the Analytical Chemistry Digital Summit 2022
 
@@ -8,12 +8,12 @@
 ## Built With
 
 - Major languages: html, css, javascript
-- Frameworks: Bootstrap 5
+- Frameworks: Webpack
 - Technologies used
 
 ## Live Demo 
 
-[Live Demo Link](https://jaferidrees.github.io/Html_css_Capstone/)
+[Live Demo Link](https://jaferidrees.github.io/LeaderBoard/)
 
 
 ## Getting Started
