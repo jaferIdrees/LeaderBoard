@@ -1,9 +1,9 @@
 main {
   display: flex;
-  padding: 2rem;
   margin: 0;
   padding: 0;
 }
+
 .scores {
   margin-right: 2rem;
 }
