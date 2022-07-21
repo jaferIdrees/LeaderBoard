@@ -1,7 +1,16 @@
 main {
   display: flex;
-  margin: 0;
+  justify-content: space-around;
+  margin: 2rem;
   padding: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1::after {
+  content: '\26BD';
 }
 
 .scores {
@@ -12,8 +21,13 @@ main {
   display: flex;
   flex-direction: column;
   border: 1px solid rgb(10, 10, 10);
+  border-radius: 5px;
   width: 30vw;
   margin: 0;
+  padding: 5px;
+  overflow: scroll;
+  box-shadow: 3px 4px rgb(121, 121, 4);
+  max-height: 50vh;
 }
 
 .recent_scores {
@@ -22,8 +36,20 @@ main {
   align-items: baseline;
 }
 
-td:nth-child(odd) {
-  background-color: gray !important;
+td {
+  line-height: 2;
+  border-radius: 1px;
+  padding: 0.5em;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+td:nth-child(even) {
+  background-color: rgb(230, 230, 230) !important;
+}
+
+td:nth-child(1)::after {
+  content: '\2654';
+  color: goldenrod;
 }
 
 form {
