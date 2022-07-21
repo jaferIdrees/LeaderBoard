@@ -25,10 +25,11 @@
         </tr>
       </table>
     </section>
-    <form action="#">
+    <form id="enterScore">
       <h2>Add your score</h2>
-      <input type="text" id="name" name="name" placeholder="Your name">
-      <input type="text" id="score" name="score" placeholder="Your score">
+      <input type="hidden" name="gameID" value="" id="gameID">
+      <input type="text" id="name" required name="name" placeholder="Your name">
+      <input type="number" id="score" required name="score" placeholder="Your score">
       <button id="add_score" type="submit">Submit</button>
     </form>
   </main>
