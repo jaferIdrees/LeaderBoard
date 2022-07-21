@@ -23,17 +23,12 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+-Working internet connection.
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+### Setup & Usage
+-Visit the [Live Demo] above.
+-Start adding your scores.
+-Press refresh button to show the scores for your game
 
 
 ## Authors
